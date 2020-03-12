@@ -1,0 +1,87 @@
+@import "../../../../../styles-master";
+
+
+.content {
+    height:100%;
+    width:100%;
+}
+
+
+.content .icon-and-details .icon {
+    border:1px solid $primary;
+    width:45px;
+    height:45px;
+    text-align: center;
+    margin:0 auto;
+    border-radius:22.5px;
+    color: $primary;
+    margin-top:10px;
+}
+
+.content .icon-and-details .icon i{
+    font-size:40px;
+}
+
+.content .icon-and-details .details {
+    text-align:center;
+}
+
+.content .icon-and-details .details .prim {
+    font-size:20px;
+    margin-top:10px;
+    font-weight:bold;
+    color:$primary;
+}
+
+.content .icon-and-details .details .sec {
+    font-size:10px;
+    color:$primary;
+}
+
+.content .input {
+    padding-left:20px;
+    padding-right:20px;
+}
+
+.content .actions {
+    padding-bottom:10px;
+}
+
+.content .email {
+}
+
+.content .password {
+}
+
+.content .actions .one {
+    width:100%;
+}
+
+.content .actions .two-equal {
+    width:50%;
+    float:left;
+}
+
+.content .actions .one button {
+    width:100%;
+}
+
+.content .actions .two-equal button {
+    width:calc(100% - 5px);
+}
+
+.mat-form-field {
+    width:100%;
+}
+
+.content .actions .mat-primary {
+    background-color: $primary;
+}
+
+.two-equal:first-child{
+    text-align:left;
+}
+
+.two-equal:last-child{
+    text-align:right;
+}

@@ -1,0 +1,20 @@
+@import "../../../styles-master";
+
+.menu {
+    height: 100%;
+    border-right: 1px solid #ddd;
+    z-index: 100;
+    background: $secondary;
+    color: $primaryColor;
+}
+
+.sb-nav-item:hover .triangle {
+    position: absolute;
+    width: 0;
+    height: 0;
+    right: 0;
+    bottom: 0;
+    border-style: solid;
+    border-width: 0 0 30px 30px;
+    border-color: transparent transparent #ddd transparent;
+}

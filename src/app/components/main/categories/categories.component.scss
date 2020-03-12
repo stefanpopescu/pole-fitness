@@ -1,0 +1,23 @@
+@import "../../../../styles-master";
+
+mat-grid-tile {
+    border:2px solid $secondary;
+}
+
+mat-grid-tile:hover{
+    transform:scale(1.005);
+ }
+
+ mat-grid-tile {
+    box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 2px 3px 0 rgba(0, 0, 0, 0.19) !important;
+    border-radius:3px;
+ }
+
+.filters {
+    padding:8px 15px 5px 10px;
+    height:auto;
+}
+
+.categories {
+    padding: 0px 10px 10px 10px;
+}

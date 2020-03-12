@@ -1,0 +1,36 @@
+@import "../../../../../styles-master";
+
+.content {
+    height:100%;
+    width:100%;
+}
+
+.content .input {
+    padding-left:20px;
+    padding-right:20px;
+}
+
+.content .actions {
+    padding-bottom:10px;
+}
+
+.content .actions .one {
+    width:100%;
+}
+
+.content .actions .one button {
+    width:100%;
+}
+
+.mat-form-field {
+    width:100%;
+}
+
+.content .actions .mat-primary {
+    background-color: $primary;
+}
+
+.title{
+    padding-left: 20px;
+    padding-top: 10px;
+}

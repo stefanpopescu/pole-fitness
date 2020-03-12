@@ -1,0 +1,12 @@
+<div class="categories-content">
+    <div class="filters">
+        <filter-categories></filter-categories>
+    </div>
+    <div class="categories">
+        <mat-grid-list cols="{{gridSettings.colsNumber}}" rowHeight="{{gridSettings.rowHeight}}" gutterSize="{{gridSettings.gutterSize}}">
+            <mat-grid-tile *ngFor="let category of categories">
+                <category-card [category]="category"></category-card>
+            </mat-grid-tile>
+        </mat-grid-list>
+    </div>
+</div>

@@ -1,0 +1,61 @@
+@import "../../../../styles-master";
+
+.auth-content {
+    width:100%;
+    height:100%;
+}
+
+.first-underlay {
+    width:100%;
+    height:30%;
+    background: #f6f6f6;
+}
+
+.second-underlay {
+    width:100%;
+    height:70%;
+    background: #fff;
+}
+
+.auth-form {
+    position:absolute;
+    background: white;
+
+    -webkit-box-shadow: -1px -1px 25px -2px rgba(153,148,153,0.78);
+    -moz-box-shadow: -1px -1px 25px -2px rgba(153,148,153,0.78);
+    box-shadow: -1px -1px 25px -2px rgba(153,148,153,0.78);
+}
+
+.auth-form .content {
+    height:100%;
+}
+
+/* Styles for the active tab label */
+.mat-tab-label.mat-tab-label-active {
+   background: $secondary;
+   color:white;
+   border-bottom:5px solid white;
+}
+
+.tab-content-underlay{
+    background: $secondary;
+    width:100%;
+    height:100%;
+}
+
+.tab-content-signin, .tab-content-signout {
+    height:calc(100% - 40px);
+    width:calc(100% - 40px);
+    left:20px;
+    top:20px;
+    background: white;
+    position:absolute;
+}
+
+.mat-tab-group {
+    height: 100%;
+}
+
+.mat-tab-body-wrapper {
+    height:100%;
+}

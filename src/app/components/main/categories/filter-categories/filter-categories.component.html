@@ -1,0 +1,20 @@
+<div class="content-filters">
+    <div class="preview" *ngIf="!expanded">
+        <div class="actions" (click)="expandCollapse()">
+            <div>
+                <i class="material-icons">
+                    filter_list
+                    </i>
+            </div>
+        </div>
+        <div class="details">
+            <div style="padding: 5px">
+                Here you'll se filter preview of what's selected.
+            </div>
+        </div>
+    </div>
+    <div class="panel" *ngIf="expanded">
+        panel
+        <button (click)="expandCollapse()">click</button>
+    </div>
+</div>

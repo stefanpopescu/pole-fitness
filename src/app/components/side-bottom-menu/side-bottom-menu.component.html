@@ -1,0 +1,43 @@
+<div class="side-bottom-menu" [ngClass]=" {'menu-open':workspaceService.workspaceState.showMenu, 'menu-close': !workspaceService.workspaceState.showMenu} ">
+    <div class="menu" >
+        <div class="sb-nav-item divider" routerLink="/home" (click)="closeMenu()">
+            <div class="item-content">
+                <div class="label">
+                    Home
+                </div>
+                <div class="icon">
+                    <i class="material-icons">home</i>
+                </div>
+                <div class="triangle"></div>
+            </div>
+
+        </div>
+        <div class="sb-nav-item divider" routerLink="/categories" (click)="closeMenu()">
+            <div class="item-content">
+                <div class="label">
+                    Categories
+                </div>
+                <div class="icon">
+                    <i class="material-icons">
+                        category
+                    </i>
+                </div>
+                <div class="triangle"></div>
+            </div>
+
+        </div>
+        <div class="sb-nav-item" routerLink="/choreographies/1" (click)="closeMenu()">
+            <div class="item-content">
+                <div class="label">
+                    Choreographies
+                </div>
+                <div class="icon">
+                    <i class="material-icons">
+                        transform
+                    </i>
+                </div>
+                <div class="triangle"></div>
+            </div>
+        </div>
+    </div>
+</div>

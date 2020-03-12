@@ -1,0 +1,120 @@
+@import "styles-master";
+
+@media only screen and (min-width: 769px) {
+    .side-bottom-menu{
+        top:80px;
+        left:0;
+        bottom:55px;
+        width:150px;
+    }
+
+    .sb-nav-item {
+        position: relative;
+        display: block;
+        width: 100%;
+        cursor: pointer;
+        height:calc(100% / 3);
+        z-index:101;
+    }
+
+    .sb-nav-item .item-content {
+        padding-top: 90px;
+    }
+
+    .item-content .label{
+        text-align: center;
+        font-size: 15px;
+        font-weight: 400;
+    }
+    
+    .item-content .icon{
+        text-align:center;
+        position: absolute;
+        top:calc((100% - 50px) / 2);
+        left:calc((100% - 50px) / 2);
+    }
+
+    .item-content .icon i {
+        font-size:50px;
+    }
+    
+    .divider{
+        border-bottom:1px solid #ddd;
+    }
+
+    .menu {
+        box-shadow: 8px 0 8px -6px #ddd;
+    }
+
+    .side-bottom-menu{
+        transition: left 0.5s;
+    }
+
+    .menu-open {
+        left:0px;
+    }
+
+    .menu-close {
+        left:-150px;
+    }
+
+    .menu-open-content {
+        left:150px;
+        width: calc(100% - 150px);
+    }
+
+    .menu-close-content {
+        left:0px;
+    }
+
+    .app-content{
+        transition: left 0.5s;
+    }
+
+    .content .footer-details {
+        font-size:15px;
+        padding-top:5px;
+        width:calc(100% - 300px)
+    }
+
+    .content .footer-icons-left, .content .footer-icons-right {
+        width:150px;
+    }
+
+    .content .footer-icons-right div, .content .footer-icons-left div {
+        padding:15px;
+        text-align: center;
+    }
+
+    
+    .content .burger-menu{
+        width:150px;
+        height:100%;
+    }
+    
+    .content .burger-menu .burger {
+        padding:20px;
+        text-align:center;
+    }
+    
+    .burger-menu .burger i{
+        font-size:40px;
+    }
+
+    .content .logo {
+        width:150px;
+    }
+
+    .content .toolbar {
+        width:calc(100% - 300px);
+    }
+
+    .auth-form {
+        width:600px;
+        height:420px;
+        top:20%;
+        left:calc(50% - 300px);
+    }
+
+}
+

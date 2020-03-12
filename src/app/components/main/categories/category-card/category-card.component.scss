@@ -1,0 +1,180 @@
+@import "../../../../../styles-master";
+
+.category-content{
+    height:100%;
+    width:100%;
+}
+
+.category-picture{
+    width:200px;
+    height:100%;
+    float:left;
+}
+
+.category-picture .picture {
+    height: 100%;
+    width: 100%;
+}
+
+.pic {
+    background-image: url(../../../../../assets/images/move.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 100%;
+    width: 100%;
+}
+
+.category-data {
+    width: 100%;
+    height: calc(100% - 30px);
+}
+
+.category-details {
+    width: calc(100% - 200px);
+    float:left;
+    height:100%;
+}
+
+.category-meta {
+    height:30px;
+    width:100%;
+    background: $secondary;
+    color: $primaryColor;
+}
+
+.category-meta .code {
+    float:left; 
+    width:35px;
+    margin-top: 5px;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.category-meta .points {
+    float:left; 
+    width:60px;
+}
+
+.category-meta .points .icon i {
+    color:rgb(255, 199, 0);
+    font-size: 19px;
+}
+
+.category-meta .name {
+    margin-top: 5px;
+    float:left; 
+    width:calc(100% - 100px);
+}
+
+.category-meta .points .icon {
+    width:25px;
+    float:left;
+    margin-top: 3px;
+}
+
+.category-meta .points .value {
+    width:35px;
+    float:left;
+    margin-top: 5px;
+    font-weight: 500;
+}
+
+.details-row .label {
+    font-weight: bold;
+}
+
+@media only screen and (min-width: 769px) { 
+    .category-details {
+        overflow-x: auto;
+        overflow-y: scroll;
+        padding-top:2px;
+    }
+
+    .category-details::-webkit-scrollbar {
+        width: 4px;
+      }
+      
+      /* Track */
+      .category-details::-webkit-scrollbar-track {
+        background: #f1f1f1;
+      }
+      
+      /* Handle */
+      .category-details::-webkit-scrollbar-thumb {
+        background: $primary;
+      }
+      
+      /* Handle on hover */
+      .category-details::-webkit-scrollbar-thumb:hover {
+        background: #555;
+      }
+
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+    .category-picture{
+        width:120px;
+        height:100%;
+        float:left;
+    }
+    
+    .category-picture .picture {
+        height: 100%;
+        width: 100%;
+    }
+   
+    .category-data {
+        height: calc(100% - 20px);
+    }
+    
+    .category-details {
+        width: calc(100% - 120px);
+        font-size:10px;
+        line-height: 1.2;
+        overflow-x: scroll;
+        margin-top: 3px;
+    }
+
+    .category-meta {
+        height:20px;
+        font-size:11px;
+    }
+
+    .category-meta .code {
+        width:25px;
+        margin-top: 0px;
+        margin-left: 4px;
+        font-weight: bold;
+    }
+    
+    .category-meta .points {
+        width:40px;
+        overflow: hidden;
+        height: 100%;
+    }
+    
+    .category-meta .points .icon i {
+        font-size: 13px;
+    }
+    
+    .category-meta .name {
+        margin-top: 0px;
+        width:calc(100% - 70px);
+    }
+    
+    .category-meta .points .icon {
+        width:20px;
+        margin-top: 2px;
+    }
+    
+    .category-meta .points .value {
+        width:20px;
+        font-weight: 500;
+        margin-top: 0px;
+    }
+}
